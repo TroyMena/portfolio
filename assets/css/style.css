@@ -54,6 +54,80 @@ header section ul li a {
     color: var(--white);
 }
 
+.about-me-title {
+    float: left;
+    width: 30%;
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.about-me {
+    padding-bottom: 60px;
+}
+
+.about-me-title ul {
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.about-me-title ul li {
+    font-size: 45px;
+}
+
+.about-me-details {
+    width: 60%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.about-me-details p {
+    padding: 10px;
+}
+
+.work {
+    float: left;
+    width: 30%;
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.work ul {
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.work ul li {
+    font-size: 45px;
+}
+
+.first-app {
+    float: right;
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    flex: 60%;
+}
+
+.first-app img {
+    object-fit: contain;
+}
+
+.first-app-title {
+    position: absolute;
+    bottom: 40px;
+    left: 16px;
+    font-size: 30px
+}
 /* Display for tablets and smartphones below */
 
 /* Tablets; inline elements are still next to each other */
