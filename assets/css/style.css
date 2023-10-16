@@ -2,13 +2,16 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    --white: #eeeeee;
+    --smartphone: #2f4b38;
+    --tablet: #311e22;
 }
 
 header {
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #31363e;
-    color: #eeeeee;
+    color: var(--white);
 }
 
 header h1 {
@@ -34,6 +37,44 @@ header section ul li {
 }
 
 header section ul li a {
-    color: #eeeeee;
+    color: var(--white);
     text-decoration: underline;
 }
+
+.subtitle {
+    padding: 80px;
+    background-color: #4a7777;
+}
+
+.subtitle h2 {
+    float: right;
+    padding-top: 25px;
+    margin-right: 35px;
+    font-size: 35px;
+    color: var(--white);
+}
+
+/* Display for tablets and smartphones below */
+
+/* Tablets; inline elements are still next to each other */
+@media screen and (max-width: 992px) {
+    .no-class-name-yet {
+      width: 50%;
+    }
+    /*header color for smartphones: */
+    header {
+      background: var(--tablet);
+    }
+  }
+  
+/* Smartphones; each inline element starts at a new line */
+@media screen and (max-width: 768px) {
+    .no-class-name-yet {
+      width: 100%;
+    }
+    /* header color for tablets: */
+    header {
+      background: var(--smartphone);
+    }
+  }
+  
