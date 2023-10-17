@@ -58,8 +58,10 @@ header section ul li a {
     float: left;
     width: 30%;
     display: inline-block;
+    margin-top: 10px;
     padding-right: 15px;
     padding-top: 10px;
+    border-right: 5px solid #445577;
 }
 
 .about-me {
@@ -95,6 +97,8 @@ header section ul li a {
     padding-right: 15px;
     padding-top: 10px;
     position: relative;
+    border-right: 5px solid #445577;
+    vertical-align: top;
 }
 
 .work ul {
@@ -109,25 +113,77 @@ header section ul li a {
     font-size: 45px;
 }
 
+.first-app-container {
+    max-width: 60%
+}
+
 .first-app {
     float: right;
-    width: 60%;
+    max-width: 60%;
     display: inline-block;
-    position: relative;
+    position: absolute;
     text-align: center;
-    flex: 60%;
+    border: 5px solid #445577;
+    align-items: right;
+    margin-left: 10px
 }
 
 .first-app img {
-    object-fit: contain;
+    max-width: 60%;
+    max-height: 1000px;
 }
 
 .first-app-title {
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
     left: 16px;
     font-size: 30px
 }
+
+.other-apps {
+    float: right;
+    max-width: 30%;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    border: 5px solid #445577;
+    align-items: right;
+    margin-left: 10px
+}
+
+.other-apps img {
+    max-width: 60%;
+    max-height: 1000px;
+}
+
+.app-title {
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
+    font-size: 30px
+}
+
+.app-title {
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
+    font-size: 30px
+}
+
+.app-title {
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
+    font-size: 30px
+}
+
+.app-title {
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
+    font-size: 30px
+}
+
 /* Display for tablets and smartphones below */
 
 /* Tablets; inline elements are still next to each other */
