@@ -125,7 +125,7 @@ header section ul li a {
     text-align: center;
     border: 5px solid #445577;
     align-items: right;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .first-app img {
@@ -135,20 +135,41 @@ header section ul li a {
 
 .first-app-title {
     position: absolute;
-    bottom: 100px;
+    bottom: 16px;
     left: 16px;
-    font-size: 30px
+    font-size: 30px;
 }
 
-.other-apps {
-    float: right;
+/* .other-apps-top {
+    --- commented out below
     max-width: 30%;
-    display: inline-block;
-    position: absolute;
+    align-items:flex-start;
+    position: relative;
     text-align: center;
     border: 5px solid #445577;
     align-items: right;
-    margin-left: 10px
+    margin-left: 10px;
+    flex-direction: row;
+    display: inline-block;
+    width: 100%
+    --- commented out above
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid #445577;
+
+    
+}
+.other-apps-bottom {
+    max-width: 30%;
+    align-items:flex-start;
+    text-align: center;
+    border: 5px solid #445577;
+    align-items: right;
+    margin-left: 10px;
+    flex-direction: row;
+    display: inline-block;
+    width: 100%
 }
 
 .other-apps img {
@@ -163,25 +184,50 @@ header section ul li a {
     font-size: 30px
 }
 
-.app-title {
-    position: absolute;
-    bottom: 100px;
-    left: 16px;
-    font-size: 30px
+*/
+.contact-me {
+    padding-bottom: 60px;
 }
 
-.app-title {
-    position: absolute;
-    bottom: 100px;
-    left: 16px;
-    font-size: 30px
+.contact-me-title {
+    float: left;
+    width: 30%;
+    display: inline-block;
+    margin-top: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+    border-right: 5px solid #445577;
 }
 
-.app-title {
-    position: absolute;
-    bottom: 100px;
-    left: 16px;
-    font-size: 30px
+.contact-me-title ul {
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.contact-me-title ul li {
+    font-size: 45px;
+}
+
+.contact-info {
+    width: 60%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.contact-info ul li {
+    padding: 10px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+}
+
+.contact-info ul li {
+    display: inline-block;
+    margin-left: 35px;
 }
 
 /* Display for tablets and smartphones below */
