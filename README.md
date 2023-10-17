@@ -1,8 +1,10 @@
-# portfolio
+# My Portfolio
 
-Welcome to my portfolio! Here you will see all my work, using the HTML, CSS, and JavaScript languages!
+Welcome to my portfolio! My name is Troy Mena, and here you will see all my work; through which I have used the HTML, CSS, and JavaScript languages!
 
 ## Website URL
+
+https://troymena.github.io/portfolio/
 
 ## Notes
 
