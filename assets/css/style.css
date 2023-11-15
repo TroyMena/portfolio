@@ -12,34 +12,27 @@ header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #31363e;
     color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    display: inline-block;
     font-size: 35px;
 }
 
-header section {
-    padding-top: 15px;
-    margin-right: 15px;
-    float: right;
+header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-header section ul {
-    list-style-type: none;
-}
-
-header section ul li {
-    display: inline-block;
-    margin-left: 35px;
-}
-
-header section ul li a {
+header nav a {
     color: var(--white);
     text-decoration: underline;
 }
+
+
+
 
 .subtitle {
     padding: 80px;
@@ -54,41 +47,56 @@ header section ul li a {
     color: var(--white);
 }
 
-.about-me-title {
-    float: left;
-    width: 30%;
-    display: inline-block;
-    margin-top: 10px;
-    padding-right: 15px;
-    padding-top: 10px;
-    border-right: 5px solid #445577;
+section {
+    display: flex;
+    margin: 20px 0 0 0;
+    /* padding: 15px 0; */
 }
 
-.about-me {
-    padding-bottom: 60px;
-}
-
-.about-me-title ul {
-    float: right;
+section h2 {
+    border-right: #31363e solid 2px;
+    flex: 0 0 20%;
     text-align: right;
-    font-weight: bold;
-    list-style-type: none;
-    padding-top: 30px;
+    padding-right: 10px;
 }
 
-.about-me-title ul li {
-    font-size: 45px;
+section div {
+    flex: 0 0 75%;
 }
 
-.about-me-details {
-    width: 60%;
-    display: inline-block;
-    margin-top: 30px;
+section p {
+    margin: 20px 10px;
+    text-align: center;
 }
 
-.about-me-details p {
-    padding: 10px;
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.first-app {
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    background-size: contain;
+    margin: 8px;
+}
+
+
+.pGen {
+    min-height: 450px;
+    flex-basis: 100%;
+    background-image: url('../images/website-screenshot.png');
+}
+
+.new {
+    background-image: url('../images/website-screenshot.png');
+}
+
+
+/*
+
 
 .work {
     float: left;
@@ -185,7 +193,7 @@ header section ul li a {
 }
 
 */
-.contact-me {
+/*.contact-me {
     padding-bottom: 60px;
 }
 
@@ -228,29 +236,30 @@ header section ul li a {
 .contact-info ul li {
     display: inline-block;
     margin-left: 35px;
-}
+} */
 
 /* Display for tablets and smartphones below */
 
 /* Tablets; inline elements are still next to each other */
 @media screen and (max-width: 992px) {
     .no-class-name-yet {
-      width: 50%;
+        width: 50%;
     }
+
     /*header color for smartphones: */
     header {
-      background: var(--tablet);
+        background: var(--tablet);
     }
-  }
-  
+}
+
 /* Smartphones; each inline element starts at a new line */
 @media screen and (max-width: 768px) {
     .no-class-name-yet {
-      width: 100%;
+        width: 100%;
     }
+
     /* header color for tablets: */
     header {
-      background: var(--smartphone);
+        background-color: var(--smartphone);
     }
-  }
-  
+}
