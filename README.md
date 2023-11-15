@@ -14,4 +14,7 @@ The screenshot below shows the website at the time of writing this README file:
 
 ## Notes
 
-Unfortunately, I was not able to get my flex boxes (including some commented out ones on the CSS code) at the desired positions; hence why this website is incomplete, unfortunately. I plan on scheduling tutoring sessions as soon as possible to make sure I will have a thorough understanding of CSS for the remainder of this course.
+Sources for my code:
+Tutor Jose Lopez
+
+While my portfolio may not be perfect, I wanted to resubmit my portfolio with these changes to demonstrate my understanding of CSS. I worked with tutor Jose Lopez, who was able to much better understand CSS flexbox.
