@@ -87,11 +87,11 @@ section p {
 .pGen {
     min-height: 450px;
     flex-basis: 100%;
-    background-image: url('../images/website-screenshot.png');
+    background-image: url('../images/blue.png');
 }
 
 .new {
-    background-image: url('../images/website-screenshot.png');
+    background-image: url('../images/green.png');
 }
 
 
